@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the    -->
+<!-- browser's rendering engine into               -->
+<!-- "Standards Mode". Replacing this declaration  -->
+<!-- with a "Quirks Mode" doctype may lead to some -->
+<!-- differences in layout.                        -->
+
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link type="text/css" rel="stylesheet" href="PhoneBook.css">
+  <title>Телефонная книга</title>
+  <style type="text/css">
+    body { margin: 0; }
+    #image{
+      position: absolute;
+      top: 5px;
+      left: 5px;
+    }
+    #filter, #stockList { position: absolute; }
+    #filter, #stockList { overflow: auto; padding: 10px; }
+    #header {
+      height: 80px; /* Высота слоя */
+      background: #209DCA; border-bottom: 5px solid #08187b;
+      text-align: center;
+      color: #FFFFFF;
+      font:bold 30px arial;
+    }
+    #header h1 { padding: 20px; margin: 0; }
+    #filter {
+      width: 200px; background: #ECF5E4; border-right: 1px solid #231F20;
+      border-top: 5px solid #08187b;
+      top: 80px; /* Расстояние от верхнего края */
+      bottom: 0; /* Расстояние снизу  */
+    }
+    #stockList {
+      top: 80px; /* Расстояние от верхнего края */
+      left: 300px; /* Расстояние от левого края */
+      bottom: 0; right: 0;
+    }
+  </style>
+  <script type="text/javascript" language="javascript" src="PhoneBook/PhoneBook.nocache.js"></script>
+</head>
+
+<body>
+<div id="header"><h1>Телефонная книга</h1></div>
+<div id="filter"></div>
+<div id="stockList"></div>
+<div id="image"><img src="images/book2.png"/></div>
+
+<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+<noscript>
+  <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+    Your web browser must have JavaScript enabled
+    in order for this application to display correctly.
+  </div>
+</noscript>
+</body>
+</html>

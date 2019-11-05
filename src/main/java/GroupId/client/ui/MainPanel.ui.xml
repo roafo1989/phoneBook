@@ -1,0 +1,15 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <g:HTMLPanel>
+<table>
+    <td>
+        <g:Button ui:field="addNoteButton" text="Добавить" styleName="bot2"/>
+    </td>
+    <td>
+        <g:Button ui:field="deleteNoteButton" text="Удалить" styleName="bot2"/>
+    </td>
+</table>
+        <g:FlexTable ui:field="stocksFlexTable"/>
+    </g:HTMLPanel>
+</ui:UiBinder>

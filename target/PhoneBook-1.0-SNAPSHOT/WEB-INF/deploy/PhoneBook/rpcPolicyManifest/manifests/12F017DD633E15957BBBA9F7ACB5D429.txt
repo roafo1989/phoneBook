@@ -1,0 +1,2 @@
+serviceClass: GroupId.client.SubscriberService
+path: C48BF7B08206E26B6496BEC520CB0F5F.gwt.rpc

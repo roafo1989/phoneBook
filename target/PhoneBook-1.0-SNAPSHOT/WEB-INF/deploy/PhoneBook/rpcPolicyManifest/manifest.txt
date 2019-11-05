@@ -1,0 +1,3 @@
+# Module PhoneBook
+# RPC service class, partial path of RPC policy file
+GroupId.client.SubscriberService, C48BF7B08206E26B6496BEC520CB0F5F.gwt.rpc
